@@ -3,6 +3,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 #vision-board {
@@ -15,7 +16,7 @@ body {
 }
 
 .block {
-    outline: 1px dashed darkgreen;
+    /* outline: 1px dashed darkgreen; */
     float: left;
     box-sizing: border-box;
     width: 400px;
@@ -37,4 +38,39 @@ body {
 
 .right {
     text-align: right;
+}
+
+.light-bg {
+    background-color: #fff;
+}
+
+.dark-bg {
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+.highlight {
+    font-size: 18px;
+    background-color: #fff44f;
+    padding: 5px 15px;
+}
+
+strong {
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: none;
+}
+
+.title {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.year {
+    font-family: "Permanent Marker", cursive;
+    font-size: 18px;
+}
+
+.top-padding {
+    padding-top: 40px;
 }
